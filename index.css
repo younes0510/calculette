@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(235, 233, 233);
+}
+#calcullete {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+
+  margin-left: 30%;
+  width: 550px;
+}
+#input {
+  background-color: rgb(235, 114, 114);
+  font-size: 5rem;
+  width: 99%;
+  height: 100px;
+  border: 0;
+  color: white;
+}
+
+.button {
+  display: grid;
+padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+button {
+  color: white;
+  font-size: 2rem;
+  border-radius: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgb(52, 50, 50);
+}
